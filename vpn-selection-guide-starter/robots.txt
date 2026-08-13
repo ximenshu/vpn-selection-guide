@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /robots.txt
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://ximenshu.github.io/vpn-selection-guide/sitemap.xml
+
