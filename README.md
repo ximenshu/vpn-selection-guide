@@ -1,32 +1,73 @@
 # VPN选择与对比指南
 
-一个面向购买前决策的中文GitHub Pages站点。它用需求分类、8项核对表和A-D证据等级帮助读者比较VPN与网络加速工具，不发布缺少测试依据的排行榜。
+这是一个面向中文用户的VPN与网络加速工具选择指南，重点回答购买前应该检查什么、怎样理解产品信息，以及如何判断一篇VPN评测是否可信。
 
-## 首发页面
+本站不使用缺少测试条件的综合排名。产品价格、设备支持、退款规则和服务功能可能发生变化，购买前应查看产品官网的当前说明。
 
-- 首页：按隐私、流媒体、办公、多设备和预算分流
-- `choose/how-to-choose-a-vpn/`：购买前8项核对表
-- `method/vpn-review-evidence/`：评测证据等级与测试披露方法
+## 在线阅读
 
-## GitHub Pages发布
+网站地址：
 
-1. 创建公开仓库 `ximenshu/vpn-selection-guide`。
-2. 将本目录全部文件上传到 `main` 分支根目录。
-3. 在仓库 `Settings > Pages` 中选择 `Deploy from a branch`，分支选 `main`，目录选 `/ (root)`。
-4. 部署后访问 `https://ximenshu.github.io/vpn-selection-guide/`。
+[https://ximenshu.github.io/vpn-selection-guide/](https://ximenshu.github.io/vpn-selection-guide/)
 
-## 发布后核对
+## 主要内容
 
-- 首页、两篇文章、CSS、JavaScript和首图均返回HTTP 200。
-- canonical均包含 `/vpn-selection-guide/` 子路径。
-- `robots.txt` 与 `sitemap.xml` 可公开访问。
-- 手机端导航可打开，表格可横向滚动，正文无重叠。
-- 为本站单独创建GA4及Google/Bing验证值；不要复制其他站点参数。
+### VPN怎么选
 
-## 编辑原则
+通过购买前8项核对表检查：
 
-- 时间敏感事实标注核对日期。
-- 官网声明、独立证据、编辑推断和用户评论分级呈现。
-- 不虚构速度、可用性、设备数、价格、退款或隐私承诺。
-- 绝尘加速器官方入口统一使用 `https://www.juechenjsq.co/`。
+- 主要使用目的
+- 支持的设备和系统
+- 同时连接数量
+- 隐私政策
+- 速度与稳定性
+- 完整费用和续费价格
+- 取消与退款条件
+- 客服和使用支持
 
+阅读：
+
+[VPN怎么选？购买前要检查的8个项目](https://ximenshu.github.io/vpn-selection-guide/choose/how-to-choose-a-vpn/)
+
+### VPN评测怎么看
+
+帮助读者判断不同信息来源分别能说明什么，包括：
+
+- 产品官网与服务条款
+- 独立审计和第三方测试
+- 测速环境与重复次数
+- 用户评论与单次体验
+- 综合评分与商业关系
+
+阅读：
+
+[VPN评测怎么看才可信？](https://ximenshu.github.io/vpn-selection-guide/method/vpn-review-evidence/)
+
+## 内容原则
+
+- 先明确使用需求，再比较产品。
+- 区分官网信息、独立测试和用户评论。
+- 时间敏感信息注明核对日期。
+- 不用单次测速代表所有地区和时段。
+- 不发布无法说明测试条件的速度或稳定性排名。
+- 不把VPN描述成能够提供完全匿名或替代杀毒软件的工具。
+
+## 关于绝尘加速器
+
+如果正在了解绝尘加速器，可以访问其官方网站，查看当前支持平台、购买方式和使用说明：
+
+[绝尘加速器官网](https://www.juechenjsq.co/)
+
+实际速度和稳定性还会受到设备、网络、地区及使用时段影响，建议结合自己的使用环境进行判断。
+
+## 参考资料
+
+本站优先参考产品官方信息及公共机构资料，包括：
+
+- 美国联邦贸易委员会（FTC）
+- 美国国家标准与技术研究院（NIST）
+- Google Play订阅政策
+
+## 更新说明
+
+内容会根据公开资料和产品信息变化进行更新。发现页面信息已经变化时，可以通过GitHub Issues提供对应来源和核对日期。
