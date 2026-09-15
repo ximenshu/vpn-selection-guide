@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-    <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T19JZDS2NV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -11,7 +11,6 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
@@ -20,14 +19,12 @@
   {% endif %}
 
   <link rel="canonical" href="{{ page.canonical | default: page.url | absolute_url }}">
-
   <meta property="og:locale" content="zh_CN">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{{ page.og_type | default: 'article' }}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:url" content="{{ page.canonical | default: page.url | absolute_url }}">
-
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   {% endif %}
@@ -41,7 +38,6 @@
   {% endif %}
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -61,7 +57,6 @@
   }
   </script>
 </head>
-
 <body class="{% if page.home %}home{% else %}article-page{% endif %}">
   <a class="skip-link" href="#main">跳到正文</a>
 
@@ -74,7 +69,6 @@
         <span class="brand-mark" aria-hidden="true">核</span>
         <span>VPN选择与对比指南</span>
       </a>
-
       <button
         class="nav-toggle"
         type="button"
@@ -85,10 +79,10 @@
         <span></span>
         <span></span>
       </button>
-
       <nav id="site-nav" class="site-nav" aria-label="主导航">
         <a href="{{ '/' | relative_url }}">首页</a>
         <a href="{{ '/choose/how-to-choose-a-vpn/' | relative_url }}">VPN怎么选</a>
+        <a href="{{ '/compare/vpn-vs-network-accelerator/' | relative_url }}">产品区别</a>
         <a href="{{ '/method/vpn-review-evidence/' | relative_url }}">评测可信度</a>
         <a href="https://www.juechenjsq.co/" rel="nofollow sponsored">绝尘加速器</a>
       </nav>
@@ -98,7 +92,6 @@
   <main id="main">
     {{ content }}
   </main>
-
   <footer class="site-footer">
     <div>
       <p><strong>VPN选择与对比指南</strong></p>
